@@ -1,0 +1,63 @@
+body {
+  background: #041425;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.stars {
+  position: absolute;
+  z-index: 0;
+  background-repeat: repeat;
+  width: 100%;
+  height: auto;
+}
+
+.moon {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+}
+
+.verse {
+  font-family: "Inter", sans-serif;
+  width: 70%;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+#verse {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: "20rem";
+}
+
+.reference {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+}
+
+p {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.earth {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  z-index: 200;
+}
