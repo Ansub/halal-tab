@@ -14,10 +14,20 @@ body {
   height: auto;
 }
 
+.earth {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 50vh;
+  z-index: 200;
+}
+
 .moon {
   position: absolute;
-  top: 5rem;
-  left: 5rem;
+  width:150px;
+  height:150px;
+  top: 1rem;
+  left: 1rem;
 }
 
 .verse {
@@ -53,11 +63,4 @@ body {
 p {
   color: white;
   font-family: "Inter", sans-serif;
-}
-
-.earth {
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  z-index: 200;
 }
